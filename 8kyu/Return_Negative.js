@@ -1,4 +1,4 @@
-// In this simple assignment you are given a number and have to make it negative. But maybe the number is already negative?
+// Return Negative
 
 function makeNegative(num) {
     if(num === 0) {
@@ -11,3 +11,11 @@ function makeNegative(num) {
         return num;
     }
   }
+
+  // Reverse the list
+
+  function reverseList(list) {
+    return list.reverse();
+  }
+  
+  reverseList([1,2,3,4])
